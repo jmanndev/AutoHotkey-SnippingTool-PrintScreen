@@ -3,7 +3,9 @@ An AutoHotkey script that overrides the PrintScreen key to automatically launch 
 
 
 Set this script to run at startup:
-`#SingleInstance force
+
+```c
+#SingleInstance force
 
 SendMode, Input
 
@@ -34,4 +36,5 @@ else
 {
 	Send {esc}
 }
-return`
+return
+```
